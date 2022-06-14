@@ -129,9 +129,26 @@ img {
  ************************************************/
 
 
- @media screen and (max-width: 768px;){
-    .lessons{
-        width: 50%;
+ @media screen and (max-width: 768px){
+    .container{
+        width: 700px;
     }
-    
+
+ }
+
+ @media screen and (max-width: 480px) {
+    .container{
+        width: 100%;
+       
+        padding: 10px;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    .col{
+        display: flex;
+        flex-wrap: wrap;
+    }
  }
