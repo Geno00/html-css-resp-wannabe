@@ -136,19 +136,22 @@ img {
 
  }
 
+
+ 
+
  @media screen and (max-width: 480px) {
     .container{
-        width: 100%;
-       
         padding: 10px;
-    }
-
-    .col{
         width: 100%;
+        
     }
 
-    .col{
+    .row{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
+
  }
